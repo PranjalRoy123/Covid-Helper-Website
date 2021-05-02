@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: rgb(148, 196, 245);
+}
+
+.App {
+  background:rgb(62, 69, 76);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+}
+
+.App > .header {
+  color: rgb(209, 209, 209);
+  
+  text-align: center;
+  font-size: 70px;
+  font-weight: 100;
+  padding: 20px;
+}
+
+.App > .info {
+  color: rgb(248, 243, 81);
+  
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 20px;
+}
+
+.Tracker {
+  background: rgb(39, 39, 39);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.Tracker > div:not(.header):not(.chart){
+  margin: 10px;
+}
+
+.Tracker > .header {
+  color: rgb(42, 226, 48);
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+  padding: 35px;
+}
+
+.Tracker > div > * {
+  color: rgb(0, 208, 255);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 10px;
+}
+
+.Tracker > div > .label {
+  color: rgb(0, 208, 255);
+}
+
+.Tracker > div > .data {
+  color: rgb(202, 220, 235);
+}
